@@ -32,7 +32,7 @@ export default function Datapunt(){
             </ul>
             <ul className="Datapunten EVL 2">
                 <li>
-                    <a>EVL 2 LUK 1 Datapunt 1 Eigen (Onderwijs)Biografie</a>
+                    <a href="/onderwijsbiografie">EVL 2 LUK 1 Datapunt 1 Eigen (Onderwijs)Biografie</a>
                 </li>
                 <li>
                     <a>EVL 2 LUK 1 Datapunt 2 Het in beeld brengen van de eigen normen en waarden als leraar</a>
