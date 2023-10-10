@@ -1,6 +1,7 @@
 export default function Datapunt(){
     return(
         <>
+            <h2>EVL 1</h2>
             <ul className="Datapunten EVL 1">
                 <li>
                     <a>EVL 1 LUK 1 Datapunt 1 Lesvoorbereiding</a>
@@ -30,6 +31,7 @@ export default function Datapunt(){
                     <a>EVL 1 LUK 3 Datapunt  Theoretische onderbouwing m.b.t. evaluerend handelen</a>
                 </li>
             </ul>
+            <h2>EVL 2</h2>
             <ul className="Datapunten EVL 2">
                 <li>
                     <a href="/onderwijsbiografie">EVL 2 LUK 1 Datapunt 1 Eigen (Onderwijs)Biografie</a>

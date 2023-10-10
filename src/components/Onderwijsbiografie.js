@@ -1,3 +1,12 @@
+function ShowContent(idValue){
+    var content = document.getElementById(idValue);
+    if (content.style.display === "block") {
+        content.style.display = "none";
+    } else {
+        content.style.display = "block";
+    }
+}
+
 export default function Onderwijsbiografie(){
     return(
         <>
@@ -18,7 +27,56 @@ export default function Onderwijsbiografie(){
                 Deze wordt getoond wanneer er op de balk van de waarde wordt geklikt. Hierin kunt u lezen welke situatie mij deze waarde heeft geleerd of juist
                 getoond heeft waarom deze waarde zo belangrijk is voor mij en/of voor mij om door te geven aan leerlingen/naasten.
             </p>
-
+            <ul class="Waarden">
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Veiligheid")}>Veiligheid</button>
+                    <div id="Veiligheid" class="content">Dit gaat over Veiligheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Respect")}>Respect</button>
+                    <div id="Respect" class="content">Dit gaat over Respect</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Vriendelijkheid")}>Vriendelijkheid</button>
+                    <div id="Vriendelijkheid" class="content">Dit gaat over Vriendelijkheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Verantwoordelijkheid")}>Verantwoordelijkheid</button>
+                    <div id="Verantwoordelijkheid" class="content">Dit gaat over Verantwoordelijkheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Reputatie")}>Reputatie</button>
+                    <div id="Reputatie" class="content">Dit gaat over Reputatie</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Motivatie")}>Motivatie</button>
+                    <div id="Motivatie" class="content">Dit gaat over Motivatie</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Openheid")}>Openheid</button>
+                    <div id="Openheid" class="content">Dit gaat over Openheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Vrijheid")}>Vrijheid</button>
+                    <div id="Vrijheid" class="content">Dit gaat over Vrijheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Teamspirit")}>Teamspirit</button>
+                    <div id="Teamspirit" class="content">Dit gaat over Teamspirit</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Eerlijkheid")}>Eerlijkheid</button>
+                    <div id="Eerlijkheid" class="content">Dit gaat over Eerlijkheid</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Empathie")}>Empathie</button>
+                    <div id="Empathie" class="content">Dit gaat over Empathie</div>
+                </li>
+                <li>
+                    <button type="button" class="collapsible" onClick={() => ShowContent("Vrijgevig")}>Vrijgevig</button>
+                    <div id="Vrijgevig" class="content">Dit gaat over Vrijgevig</div>
+                </li>
+            </ul>
         </>
     )
 }
