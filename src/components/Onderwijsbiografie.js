@@ -12,9 +12,14 @@ export default function Onderwijsbiografie(){
         <>
             <h1>Eigen onderwijsbiografie</h1>
             <h2>Definities</h2>
-            <p>Normen: Zijn de richtlijnen hoe je sociaal gewenst met elkaar omgaat.</p>
-            <p>Waarden: Zijn de zaken die waardevol gevonden worden door iemand of een groep mensen.</p>
-            <p>Overtuigingen: Dingen waarvan mensen denken dat ze waar zijn</p>
+            <dl>
+                <dt>Normen</dt>
+                <dd>Zijn de richtlijnen hoe je sociaal gewenst met elkaar omgaat</dd>
+                <dt>Waarden</dt>
+                <dd>Zijn de zaken die waardevol gevonden worden door iemand of een groep mensen</dd>
+                <dt>Overtuigingen</dt>
+                <dd>Dingen waarvan mensen denken dat ze waar zijn</dd>
+            </dl>
             <h2>Levensloop</h2>
             <p>
                 Om een korte introductie te geven van dit hoofdstuk zal ik beginnen met hoe ik tot deze uitkomst ben gekomen.
