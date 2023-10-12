@@ -35,7 +35,18 @@ export default function Onderwijsbiografie(){
             <ul class="Waarden">
                 <li>
                     <button type="button" class="collapsible" onClick={() => ShowContent("Veiligheid")}>Veiligheid</button>
-                    <div id="Veiligheid" class="content">Dit gaat over Veiligheid</div>
+                    <div id="Veiligheid" class="content">
+                        Veiligheid gaat voor alles. Waarom vind ik veiligheid zo belangrijk? Zolang 
+                        er geen veiligheid aanwezig is kan er niet geleerd worden. Dit geld voor op 
+                        school maar ook het leven daar omheen. Op school heb ik niks anders geleerd 
+                        dan dat je eerst moet denken aan veiligheidsvoorschriften. In de praktische 
+                        vakken zoals handvaardigheid of scheikunde, om er maar 2 te noemen, is dit 
+                        het eerste dat mij geleerd is omdat er anders een grote kans bestaat dat er 
+                        blijvend letsel opgelopen wordt. Niemand wilt dit dus dan leren we hoe we 
+                        het gereedschap op een goede manier kunnen gebruiken. Dit is daarom ook de 
+                        rede dat ik deze kennis over probeer te brengen op anderen maar ook zelf 
+                        zo veel mogelijk probeer mee te nemen in mijn overwegingen.
+                    </div>
                 </li>
                 <li>
                     <button type="button" class="collapsible" onClick={() => ShowContent("Respect")}>Respect</button>
