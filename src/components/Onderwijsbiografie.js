@@ -50,7 +50,24 @@ export default function Onderwijsbiografie(){
                 </li>
                 <li>
                     <button type="button" class="collapsible" onClick={() => ShowContent("Respect")}>Respect</button>
-                    <div id="Respect" class="content">Dit gaat over Respect</div>
+                    <div id="Respect" class="content">
+                    Respect is de nummer 2 in mijn lijst van meest belangrijke waarden. Deze waarde 
+                    heeft heel veel verschillende uitingsvormen waardoor het lastig is om alles 
+                    hiervan te omvatten in enkele woorden. Zoals ik het zie bestaat respect uit 
+                    2 delen: respect hebben voor iets of iemand en het tonen hiervan. Het hebben 
+                    van respect voor iets of iemand hoeft niet te betekenen dat je het ook toont 
+                    en visa versa. Omdat het niet gepaard hoeft te gaan is het vaak lastig om zeker 
+                    te zijn van een anders intentie. In Nederland is het de norm dat je een ander 
+                    aankijkt als die met je praat. Echt is dit niet in elk land of cultuur het 
+                    zelfde. Zo heb ik meerdere klasgenoten gehad die Arabische invloeden hebben 
+                    gehad in hun opvoeding waardoor ze je niet aankijken wanneer je ze gaat 
+                    corrigeren. Zij kijken dan naar beneden terwijl Nederlanders dit dan opvatten 
+                    als respectloos gedrag. Omdat ik me hiervan bewust ben heb ik meerdere normen 
+                    die elkaar lijken tegen te spreken maar eigenlijk afhangen van de afkomst en 
+                    opvoeding van anderen. Van Nederlanders verwacht ik bijvoorbeeld dat ze mij 
+                    aankijken en van andere landen/culturen verwacht ik dit niet en tast ik eerst 
+                    af hoe zij respect tonen in die situaties.
+                    </div>
                 </li>
                 <li>
                     <button type="button" class="collapsible" onClick={() => ShowContent("Vriendelijkheid")}>Vriendelijkheid</button>
